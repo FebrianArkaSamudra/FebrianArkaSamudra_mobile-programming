@@ -48,6 +48,7 @@ In the do-while loop, it again prints the current value of the variable and incr
 ---
 ## Langkah 1 & 2:
 ![alt text](img/P3_Langkah1&3.png)
+
 Variable Index is not declared
 Dart requires all variables to be declared before use. Index has no type and hasn't been declared.
 
@@ -73,7 +74,7 @@ Loop Body:
 print(index); prints the current value of index to the console.
 
 ## Langkah 3:
-![Week3/img/P2_Langkah3.png](img/P2_Langkah3.png)
+![alt text](<img/P3_Langkah 3.png>)
 
 Incorrect keyword casing: If and Else If
 Dart is case-sensitive. The correct keywords are if and else if — all lowercase. Using uppercase like If or Else If causes a syntax error.
@@ -86,6 +87,7 @@ This condition is always true for any number because every number is either grea
 
 **Result :**
 ![alt text](img/P3_Langkah3(2).png) 
+
 The for loop starts from 10 and goes up to (but not including) 27.
 
 If the value of index reaches 21, the loop stops immediately because of the break statement.
@@ -93,3 +95,4 @@ If the value of index reaches 21, the loop stops immediately because of the brea
 If the index is outside the range 13 to 25, the continue statement skips that iteration and does not execute print().
 
 Only values between 13 and 20 will be printed, because once it hits 21, the loop breaks.
+
