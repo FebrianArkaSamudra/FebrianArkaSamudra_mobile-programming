@@ -3,7 +3,7 @@
 ## Langkah 1 & 2:
 ![alt text](img/image.png)
 
-* Result : * 
+*Result :* 
 Incorrect Capitalization of Keywords
 The keywords if and else must be written in lowercase. Dart is case-sensitive, so using If or Else will result in a syntax error.
 
