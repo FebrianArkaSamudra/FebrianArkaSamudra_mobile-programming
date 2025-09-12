@@ -1,5 +1,5 @@
 == Soal 1 ==
-![alt text](CodeLab02.png)
+![alt text](img/CodeLab02.png)
 
 == Soal 2 ==
 
@@ -23,7 +23,7 @@ Poin Penting dari Codelab Ini:
 - Persiapan dasar untuk belajar widget dan state di Flutter
 
 == Soal 4 ==
-![alt text](image.png)
+![alt text](img/image.png)
 Perbedaan null safety dan late variable di Dart:
 
 null safety :
