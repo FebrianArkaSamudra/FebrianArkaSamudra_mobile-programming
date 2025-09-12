@@ -1,3 +1,5 @@
+== Soal 1 ==
+![alt text](CodeLab02.png)
 == Soal 2 ==
 
 Mengapa penting memahami Dart sebelum menggunakan Flutter?
