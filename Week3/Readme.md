@@ -96,3 +96,21 @@ If the index is outside the range 13 to 25, the continue statement skips that it
 
 Only values between 13 and 20 will be printed, because once it hits 21, the loop breaks.
 
+# Tugas Praktikum: 
+Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+---
+## Result:
+![alt text](img/Tugas_Praktikum.png)
+![alt text](img/Tugas_Praktikum(2).png)
+
+The program prints all prime numbers from 0 to 201. For each prime number found, it also displays your full name and student ID (NIM).
+
+It works by:
+
+Looping through numbers from 0 to 201.
+
+Checking if each number is prime (a number greater than 1 with no divisors other than 1 and itself).
+
+Printing the prime number, your name, and your NIM when a prime is found.
+
+The result is a list of all prime numbers within the range, along with your personal information shown for each.
