@@ -22,6 +22,7 @@ The program produces an error because the variable used in the while loop condit
 
 **Result :** 
 ![alt text](img/P2_Langkah1&2(2).png)
+
 The program is designed to display numbers starting from 0 up to 32 using a while loop.
 
 Before the loop starts, a variable is created to act as a counter, and it's initialized with the value 0.
@@ -58,6 +59,7 @@ In the for loop, there's no increment step (like index++). Without it, the loop 
 
 **Result :** 
 ![alt text](img/P3_Langkah1&2(2).png)
+
 Variable Declaration:
 int index = 10; declares a loop variable starting at 10.
 
@@ -72,6 +74,7 @@ print(index); prints the current value of index to the console.
 
 ## Langkah 3:
 ![Week3/img/P2_Langkah3.png](img/P2_Langkah3.png)
+
 Incorrect keyword casing: If and Else If
 Dart is case-sensitive. The correct keywords are if and else if — all lowercase. Using uppercase like If or Else If causes a syntax error.
 
