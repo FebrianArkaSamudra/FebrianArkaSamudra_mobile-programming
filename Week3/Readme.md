@@ -41,3 +41,52 @@ It enters a while loop that continues as long as the variable is less than 33. D
 After the while loop finishes, the program enters a do-while loop. This type of loop always executes at least once, even if the condition is false after the first run.
 
 In the do-while loop, it again prints the current value of the variable and increases it by one, continuing until the value reaches 77.
+
+
+# Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
+---
+## Langkah 1 & 2:
+![alt text](img/P3_Langkah1&3.png)
+Variable Index is not declared
+Dart requires all variables to be declared before use. Index has no type and hasn't been declared.
+
+Inconsistent casing
+Dart is case-sensitive. Index (with capital "I") and index (with lowercase "i") are treated as two different variables, which leads to confusion and errors.
+
+Missing increment expression in the loop
+In the for loop, there's no increment step (like index++). Without it, the loop will run infinitely or not function as expected.
+
+**Result :** 
+![alt text](img/P3_Langkah1&2(2).png)
+Variable Declaration:
+int index = 10; declares a loop variable starting at 10.
+
+Condition:
+The loop continues running as long as index is less than 27.
+
+Increment:
+index++ increases the value by 1 after each loop iteration.
+
+Loop Body:
+print(index); prints the current value of index to the console.
+
+## Langkah 3:
+![Week3/img/P2_Langkah3.png](img/P2_Langkah3.png)
+Incorrect keyword casing: If and Else If
+Dart is case-sensitive. The correct keywords are if and else if — all lowercase. Using uppercase like If or Else If causes a syntax error.
+
+Inconsistent variable name: Index vs index
+Dart treats Index and index as two completely different variables. You declared index, but then referred to it as Index, which is undefined.
+
+Incorrect logic: if (index > 1 || index < 7)
+This condition is always true for any number because every number is either greater than 1 or less than 7. For example, 10 is greater than 1, so the condition is always met. This causes the continue statement to skip most values unexpectedly.
+
+**Result :**
+![alt text](img/P3_Langkah3(2).png) 
+The for loop starts from 10 and goes up to (but not including) 27.
+
+If the value of index reaches 21, the loop stops immediately because of the break statement.
+
+If the index is outside the range 13 to 25, the continue statement skips that iteration and does not execute print().
+
+Only values between 13 and 20 will be printed, because once it hits 21, the loop breaks.
