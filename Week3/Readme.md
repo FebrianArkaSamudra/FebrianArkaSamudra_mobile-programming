@@ -1,5 +1,5 @@
 # Praktikum 1: Menerapkan Control Flows ("if/else")
----
+
 ## Langkah 1 & 2:
 ![Week3/img/P1_Langkah1&2.png](img/P1_Langkah1&2.png)
 
@@ -15,7 +15,7 @@ Declaring two variables with the same name (test) in the same scope is not allow
 
 
 # Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
----
+
 ## Langkah 1 & 2:
 ![Week3/img/P1_Langkah1&2.png](img/P1_Langkah1&2.png)
 The program produces an error because the variable used in the while loop condition (counter) has not been declared or initialized before it is used. In Dart, all variables must be declared with a specific type or using var before they are accessed. Attempting to use an undefined variable will result in a compile-time error.
@@ -45,7 +45,7 @@ In the do-while loop, it again prints the current value of the variable and incr
 
 
 # Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
----
+
 ## Langkah 1 & 2:
 ![alt text](img/P3_Langkah1&3.png)
 
