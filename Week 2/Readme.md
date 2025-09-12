@@ -1,5 +1,6 @@
 == Soal 1 ==
 ![alt text](CodeLab02.png)
+
 == Soal 2 ==
 
 Mengapa penting memahami Dart sebelum menggunakan Flutter?
@@ -22,6 +23,7 @@ Poin Penting dari Codelab Ini:
 - Persiapan dasar untuk belajar widget dan state di Flutter
 
 == Soal 4 ==
+![alt text](image.png)
 Perbedaan null safety dan late variable di Dart:
 
 null safety :
