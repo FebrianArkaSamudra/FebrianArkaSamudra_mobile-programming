@@ -1,15 +1,16 @@
-// JenisParameter-Functions
-// Positional Parameters 
+// Types of Parameters in Functions
+
+// 1. Positional Parameters
 void greet(String name, int age) {
   print("Hello $name, you are $age years old");
 }
 
 void main() {
-  greet("Alice", 25); // Correct
-  // greet(25, "Alice"); // Error: wrong order
+  greet("Alice", 25); // Correct usage
+  // greet(25, "Alice"); // Error: parameter order is incorrect
 }
 
-// Optional Positional Parameters ([])
+// 2. Optional Positional Parameters (using [])
 void greet(String name, [int? age]) {
   print("Hello $name, your age is ${age ?? 'unknown'}");
 }
@@ -19,17 +20,17 @@ void main() {
   greet("Andi", 30); // Hello Andi, your age is 30
 }
 
-// Named Parameters ({})
+// 3. Named Parameters (using {})
 void greet({String? name, int? age}) {
   print("Hello $name, you are $age years old");
 }
 
 void main() {
   greet(name: "Citra", age: 22); // Hello Citra, you are 22 years old
-  greet(age: 18, name: "Rina"); // Order doesn’t matter
+  greet(age: 18, name: "Rina"); // Order doesn't matter for named parameters
 }
 
-// Default Parameter Values
+// 4. Named Parameters with Default Values
 void greet({String name = "Anonymous", int age = 0}) {
   print("Hello $name, you are $age years old");
 }
@@ -40,18 +41,17 @@ void main() {
   greet(name: "Eko", age: 21); // Hello Eko, you are 21 years old
 }
 
-
-// Functions-FirstClassObjects
+// Functions as First-Class Objects
 void sayHello() {
   print("Hello!");
 }
 
 void main() {
-  // Store function in a variable
+  // Assign function to a variable
   var myFunc = sayHello;
   myFunc(); // Output: Hello!
 
-  // Pass function as a parameter
+  // Pass function as an argument to another function
   void execute(Function fn) {
     fn();
   }
@@ -59,34 +59,33 @@ void main() {
   execute(sayHello);
 }
 
-
-// AnonymousFunctio
+// Anonymous Functions
 void main() {
-  // Anonymous function in forEach
+  // Using anonymous function with forEach
   var numbers = [1, 2, 3];
   numbers.forEach((n) {
     print(n * 2);
   });
 
-  // Arrow syntax for anonymous function
+  // Using arrow syntax for anonymous function
   numbers.forEach((n) => print(n + 10));
 }
 
+// Lexical Scope and Closures
 
-// LexicalScope-LexicalClosures
-// Lexical Scope
+// Lexical Scope Example
 void main() {
   var name = "Budi";
 
   void sayHello() {
-    print("Hello $name"); // Accessible due to lexical scope
+    print("Hello $name"); // Accessible because of lexical scoping
   }
 
   sayHello();
 }
 
-// Lexical Closure
-  Function makeMultiplier(int factor) {
+// Lexical Closure Example
+Function makeMultiplier(int factor) {
   return (int x) => x * factor;
 }
 
@@ -98,9 +97,9 @@ void main() {
   print(tripleIt(5)); // 15
 }
 
+// Returning Multiple Values from a Function
 
-// ReturnMultipleFunctions
-// Multiple Values Using List
+// 1. Using a List
 List<int> calculate(int a, int b) {
   return [a + b, a - b];
 }
@@ -110,7 +109,7 @@ void main() {
   print("Sum: ${result[0]}, Subtract: ${result[1]}");
 }
 
-// Using Record Type
+// 2. Using a Record Type
 (int, int) calculate(int a, int b) {
   return (a + b, a - b);
 }
@@ -120,7 +119,7 @@ void main() {
   print("Sum: $sum, Subtract: $subtract");
 }
 
-// Using Class 
+// 3. Using a Class
 class CalculationResult {
   final int sum;
   final int difference;
@@ -137,7 +136,7 @@ void main() {
   print("Sum: ${result.sum}, Difference: ${result.difference}");
 }
 
-// Using Map
+// 4. Using a Map
 Map<String, int> calculate(int a, int b) {
   return {"sum": a + b, "difference": a - b};
 }
