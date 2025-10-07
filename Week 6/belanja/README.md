@@ -16,3 +16,33 @@ Features Implemented
 - ListView Builder: Dynamic list generation from data model
 - Data Passing: Sending item data from Home Page to Item Page
 - Material Design: Use of Card and InkWell widgets for better UX
+
+
+# Tugas Praktikum 2  
+**Pemrograman Mobile - Navigasi dan Rute (Flutter + go_router)**  
+
+---
+
+## Tujuan Praktikum
+
+Praktikum ini bertujuan untuk memahami dan menerapkan konsep navigasi antar halaman pada aplikasi Flutter menggunakan plugin `go_router`, mengirimkan data antar halaman, serta menampilkan data produk secara menarik menggunakan `GridView` dan `Hero` animation.
+
+---
+
+![alt text](img/TP2Video.gif)
+## Fitur yang Diimplementasikan
+
+- Navigasi antar halaman menggunakan `go_router`
+- Pengiriman data menggunakan `extra` pada GoRoute
+- Penambahan atribut produk:  
+  **Gambar**, **Rating**, **Stok**
+- Tampilan produk dalam format `GridView`
+- Hero animation saat transisi ke halaman detail
+- Footer identitas dengan nama dan NIM
+
+---
+
+## Result Implementasi 
+![alt text](img/TP2Detail.png)
+
+![alt text](img/TP3Home.png)
